@@ -274,6 +274,7 @@ button {
 .projectSection{
     font-family:'SamR';
     width: 80%;
+    
     max-width:780px;
     margin-left:auto;
     margin-right:auto;
@@ -290,6 +291,7 @@ button {
 }
 .projectSection p{
     position:relative;
+    font-size:14px;
     text-align:left;
     margin-left:20px;
 }
@@ -399,6 +401,7 @@ a:active {
 }
 
 .animated-button .text {
+    font-size:14px;
   position: relative;
   z-index: 1;
   transform: translateX(-12px);
