@@ -1,4 +1,4 @@
-
+/*
 
 (() => {
   const copyrightElement = document.getElementById("copyright");
@@ -68,3 +68,4 @@ document.addEventListener('mouseup', () => {
 boundary.addEventListener('mousedown', () => {
   if (selected) { selected.classList.remove('selected'); selected = null; }
 });
+*/
