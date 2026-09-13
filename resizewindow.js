@@ -1,3 +1,4 @@
+/*
 function resize() {
     const width = window.innerWidth;
     const project = document.getElementById('project');
@@ -16,3 +17,5 @@ function resize() {
     }
 }
 window.onresize = resize();
+
+*/
