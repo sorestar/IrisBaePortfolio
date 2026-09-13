@@ -3,8 +3,7 @@ html {
     background-size: contain;
     background-color: #f9fae1;
     scroll-behavior: smooth;
-
-    width: 100%;
+    width: 100vw;
 }
 
 .sq {
@@ -91,7 +90,26 @@ body {
 
     border-radius: 25px;
 }
+.left {
+  margin-left: 10px;
+}
+.split a{
+    font-family:"Inter";
+    font-size:20px;
+}
+.split{
+    width:95vw;
+    margin-left:2.5vw;
+    height:500px;
+    background-color:#a8806d;
+    border-radius:45px;
 
+    overflow:hidden;
+}
+.right {
+    margin-top:-290px;
+    margin-left:350px;
+}
 #languageText {
     position: relative;
     top: -910px;
@@ -181,7 +199,7 @@ body {
     z-index: 100;
     overflow: hidden;
     margin-top:-20px;
-    font-size:25px;
+    font-size:24px;
 }
 
 .topnav a{
@@ -229,6 +247,10 @@ button {
   transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
   transition-duration: 400ms;
   transition-property: color;
+}
+#imaging {
+    padding-top:60px;
+    width:300px;
 }
 #engButton {
   font-size: 25px;
