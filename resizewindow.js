@@ -4,9 +4,9 @@ function resize() {
     const about = document.getElementById('about');
     const contact = document.getElementById('contact');
     if (width <= 400) {
-        project.style.fontSize = "10px";
-        contact.style.fontSize = "10px";
-        about.style.fontSize = "10px";
+        project.style.fontSize = "15px";
+        contact.style.fontSize = "15px";
+        about.style.fontSize = "15px";
     } 
     else if (width > 400) {
         project.style.fontSize = "22px";
