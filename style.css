@@ -41,10 +41,10 @@ html {
 }
 
 #start {
-    width: 100%;
-    height: 11%;
-    background-color: #f9fae1;
-
+    width: 80%;
+    height: fit-content;
+    margin-top:2%;
+    margin-left:2%;
 }
 
 #initial {
@@ -185,43 +185,29 @@ body {
 }
 
 .topnav {
-    top: 80px;
-
-    width: 100%;
-    position: absolute;
     text-align: center;
-    height: auto;
-    margin-top: 30px;
     z-index: 100;
     overflow: hidden;
-
+    font-size:22px;
 }
 
-.topnav a {
-    border-radius: 25px;
-
+.topnav a{
+    background-color:#eee8a4;
+    border-radius:225px;
+    font-weight:600;
     font-family: 'Inter';
-
-
-    color: rgb(41, 40, 39);
+    color: #384048;
     text-align: center;
-    padding: 1vw;
+    padding: 60px;
+    margin-right:22px;
+    margin-left:22px;
+    width:fit-content;
     text-decoration: none;
-    font-size: 30px;
 }
 
 .topnav a:hover {
 
-    color: rgb(20, 19, 19);
-}
-
-.topnav a.comment {
-    border-radius: 25px;
-}
-
-
-.topnav a.active {
-    color: rgb(56, 52, 47);
+    color: #4a7194;
 }
 
 #line a {
@@ -237,15 +223,12 @@ body {
 }
 
 #line a.active {
+    
     color: rgb(61, 50, 34);
 }
 
 /* From Uiverse.io by WhiteNervosa */ 
 button {
-  font-size: 18px;
-  color: #60608a;
-  font-family: 'InterClean';
-  font-weight: 800;
   cursor: pointer;
   position: relative;
   border: none;
@@ -254,10 +237,22 @@ button {
   transition-duration: 400ms;
   transition-property: color;
 }
+#engButton {
+  font-size: 18px;
+  color: #5d7b93;
+  font-family: 'InterClean';
+  font-weight: 800;
 
+}
+#korButton {
+  font-size: 18px;
+  color: #5d7b93;
+  font-family: 'InterClean';
+  font-weight: 800;
+}
 button:focus,
 button:hover {
-  color: #22228d;
+  color: #4f4f77;
 }
 
 button:focus:after,
@@ -274,7 +269,7 @@ button:after {
   position: absolute;
   width: 0%;
   height: 2px;
-  background-color: #22228d;
+  background-color: #4f4f77;
   transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
   transition-duration: 400ms;
   transition-property: width, left;
