@@ -252,7 +252,7 @@ function changeToEng() {
         language.innerHTML = '<br>✦Korean(native) ✦English(fluent) ✦Japanese(Beginner)';
         languages.innerHTML = 'LANGUAGES';
 
-        skill.innerHTML = 'SKILLS';
+        skill.innerHTML = 'About Me';
 
         comment.innerHTML = 'Cookies';
         about.innerHTML = 'About';
