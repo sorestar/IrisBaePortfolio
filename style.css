@@ -180,7 +180,8 @@ body {
     text-align: center;
     z-index: 100;
     overflow: hidden;
-    font-size:22px;
+    margin-top:-20px;
+    font-size:25px;
 }
 
 .topnav a{
@@ -230,14 +231,14 @@ button {
   transition-property: color;
 }
 #engButton {
-  font-size: 28px;
+  font-size: 25px;
   color: #5d7b93;
   font-family: 'InterClean';
   font-weight: 800;
 
 }
 #korButton {
-  font-size: 28px;
+  font-size: 25px;
   color: #5d7b93;
   font-family: 'InterClean';
   font-weight: 800;
